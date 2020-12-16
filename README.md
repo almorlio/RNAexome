@@ -1,6 +1,6 @@
 # RNA exome preprocessing pipeline
 
-Pipeline used for Hulstaert et al., Charting Extracellular Transcriptomes in The Human Biofluid RNA Atlas, Cell Reports (2020), https:// doi.org/10.1016/j.celrep.2020.108552
+Pipeline used for Hulstaert et al., Charting Extracellular Transcriptomes in The Human Biofluid RNA Atlas, Cell Reports (2020) (https:// doi.org/10.1016/j.celrep.2020.108552)
 
 ## Scripts
 ### Preparation
