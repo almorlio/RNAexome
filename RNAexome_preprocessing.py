@@ -43,10 +43,10 @@ subsample_to_nr = args.n[0] # nr of reads you want to subsample to (based on flo
 #seq_machine = args.seq[0]
 
 # python submit_circRNA_slurm.py -p CIRCexplorer2_STAR -t se -d clumpify -b $VSC_DATA_VO/RNA_seq_pipeline/data/KVB/NSQ_Run219b-32853823 -g hg38 -o $VSC_DATA_VO/RNA_seq_pipeline/data/KVB/NSQ_Run219b-32853823/output_circRNA -s H -u jasper.anckaert@ugent.be
-star_index = "/data/gent/vo/000/gvo00027/RNA_seq_pipeline/STAR_index/Genome_hg38_spikes_chrIS_MTr45S_star_index"
-gtf = "/data/gent/vo/000/gvo00027/RNA_seq_pipeline/ensembl_transcriptomes/Homo_sapiens.GRCh38.91_withspikes.gtf"
-chrom = "/data/gent/vo/000/gvo00027/RNA_seq_pipeline/ensembl_transcriptomes/Homo_sapiens.GRCh38.chr_spikes.txt"
-exon_bed = "/user/data/gent/gvo000/gvo00027/RNA_seq_pipeline/ensembl_bedregions/Homo_sapiens.GRCh38.91_exons_sorted_merged2.bed"
+star_index = "Genome_hg38_spikes_chrIS_MTr45S_star_index"
+gtf = "Homo_sapiens.GRCh38.91_withspikes.gtf"
+chrom = "Homo_sapiens.GRCh38.chr_spikes.txt"
+exon_bed = "Homo_sapiens.GRCh38.91_exons_sorted_merged2.bed"
 tasks = 1
 mem = 40
 
