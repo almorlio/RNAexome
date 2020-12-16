@@ -33,15 +33,15 @@ Fill in the project name, accesstoken and directory and the download should auto
 #### Usage
 Make sure to run the pipeline with Python3
 This pipeline makes use of several other tools that need to be installed or loaded first (change module loading in script to the version you have in case of submission to server)
-* [FastQC - for quality control] (https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
-* [FASTX-toolkit - for quality filtering] (http://hannonlab.cshl.edu/fastx_toolkit/commandline.html)
-* [Cutadapt - for adapter trimming] (https://cutadapt.readthedocs.io/en/stable/)
-* [Seqtk - for downsampling FASTQ files] (https://github.com/lh3/seqtk/blob/master/README.md)
-* [STAR - for mapping] (https://github.com/alexdobin/STAR)
-* [HTSeq - for quantification] (https://htseq.readthedocs.io/en/master/)
-* [Picard - for PCR duplicate removal] (https://broadinstitute.github.io/picard/)
-* [SAMtools - for sorting BAM file and index statistics] (http://samtools.sourceforge.net)
-* [RSeQC - for strandedness determination] (http://rseqc.sourceforge.net)
+* [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) - for quality control
+* [FASTX-toolkit](http://hannonlab.cshl.edu/fastx_toolkit/commandline.html) - for quality filtering
+* [Cutadapt](https://cutadapt.readthedocs.io/en/stable/) - for adapter trimming
+* [Seqtk](https://github.com/lh3/seqtk/blob/master/README.md) - for downsampling FASTQ files
+* [STAR](https://github.com/alexdobin/STAR) - for mapping
+* [HTSeq](https://htseq.readthedocs.io/en/master/) - for quantification
+* [Picard](https://broadinstitute.github.io/picard/) - for PCR duplicate removal
+* [SAMtools](http://samtools.sourceforge.net) - for sorting BAM file and index statistics
+* [RSeQC](http://rseqc.sourceforge.net) - for strandedness info
 
 ```bash
 $ python RNAexome_preprocessing.py -h
@@ -79,8 +79,7 @@ optional arguments:
   -u user_email         Submitter email address (used for error reporting)
 ```
 
-This will create, for each sample in folder, individual jobscripts to run subparts of the pipeline.
-These can be run directly on command line.
+This will create, for each sample in your base directory, individual jobscripts to run subparts of the pipeline which can be run on command line.
 
 ```bash
 e.g. bash 00_combinecopy_RNA0001.sh
