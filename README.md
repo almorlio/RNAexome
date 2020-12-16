@@ -28,6 +28,8 @@ You can find the Project Name in the BaseSpace: e.g. NSQ_Run532.
 
 Fill in the project name, accesstoken and directory and the download should automatically start.
 
+#### Reference files
+You will need to have (or create) a GTF file of your regions of interest (including spikes if needed), a STAR index (see manual of STAR), a chromosome and an exon file (example of the last 2 files are in this GitHub folder).
 
 ### Main script
 #### Usage
